@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#body{
+    background-image: url(./assets/bg.png);
+    height: 100vh;
+    width: 100vw;
+    background-size: 100% 100%;
+    box-sizing: content-box;
+}
+h1{
+    color: blue;
+    padding-top: 20px;
+    font-size: 4rem;
+    padding-left: 45%;
+}
+#gameimg{
+    background-image: url(./assets/game-image.png);
+    height: 30rem;
+    width: 40rem;
+    background-size: 100% 100%;
+    margin-top: 40px;
+}
+#play{
+    background-image: url(./assets/play-button.png);
+    background-repeat: no-repeat;
+    height: 15rem;
+    width: 15rem;
+    position: absolute;
+    top: 55%;
+    right: 10rem;
+}
+h3{
+    color: red;
+    font-size: 4rem;
+    position: absolute;
+    top: 40%;
+    right: 7rem;
+}
