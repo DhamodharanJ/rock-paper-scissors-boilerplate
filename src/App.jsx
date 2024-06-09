@@ -5,7 +5,7 @@ import Gamingpage from './Components/Gamingpage'
 import Winning from './Components/Winning'
 
 function App() {
-  const[score,setScore]=useState(0);
+  const[score,setScore]=useState(0); 
   return (
     <div>
       <Routes>

@@ -4,7 +4,7 @@ import '../Gamingpage.css'
 import rockimg from '../assets/rock-hand.png'
 import paperimg from '../assets/paper-hand.png'
 import scissorsimg from '../assets/scissors-hand.png'
-export  const SendingData=createContext(null);
+// export  const SendingData=createContext(null);
 function Gamingpage(props) {
     var[assign,setAssign]=useState(null);
     const[comassign,setComassign]=useState(null);
@@ -131,6 +131,7 @@ const userSide={
   return (
     <div id='body'>
       <Link to={'/'}><button style={{border:'none',borderRadius:'1rem',height:'1.5rem',width:'3rem',color:'darkblue'}} >Back</button></Link>
+      <span style={{color:'red',fontSize:'2rem',position:'absolute',left:'20rem',top:'3rem',backgroundColor:'white',fontWeight:'bold',borderRadius:'1rem'}}>YOU</span>
       <div id='vs'></div>
       <div id='userside'style={userSide} >
       </div>
